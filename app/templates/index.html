@@ -5,7 +5,7 @@
     <title>Página Inicial</title>
 </head>
 <body>
-    <h1>Bem vindo a lista de eventos!</h1>
+    <h1>{{ titulo }}</h1>
     <ul>
         {%for e in eventos%}
         <li>
@@ -13,6 +13,6 @@
         </li>
         {% endfor %}
     </ul>
-<<!-- Crio uma lista que gera uma linha para cada evento -->
+<!-- Crio uma lista que gera uma linha para cada evento -->
 </body>
 </html>
