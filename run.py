@@ -1,4 +1,5 @@
-from app import app #da pasta app vou importar app
+from app import app
+#da pasta app vou importar app
 
 
 if __name__ == "__main__":
