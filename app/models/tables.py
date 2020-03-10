@@ -30,4 +30,4 @@ class Atividade(db.Model):
     #se eu imprimir a atividade vai vir o nome dela no console
 
     #para abrir e criar no banco usar python3 para conectar no console depois comando fom app import db e por fim db.create_all()
-    #para adicionar um usuario pelo console eu uso from app.models.tables import Usuario depois u1 = usuario(nome="xxx",...) para criar o usuario, db.session.add(u1) e db.session.commit() para mandar para o banco
+    #para adicionar um usuario pelo console eu uso from app.models.tables import Usuario depois u1 = usuario(nome="xxx",...) para criar o usuario,  e db.session.commit() para mandar para o banco

@@ -18,6 +18,7 @@ from app.models.tables import Usuario
 from app.models.tables import Atividade
 #importo as tabelas
 
+from app.controllers import atividades
 
 @app.route('/home')
 def home():
